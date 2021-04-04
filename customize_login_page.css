@@ -1,0 +1,44 @@
+/*Creating a CSS file below the activited theme
+        ex: style-login.css;
+        https://codex.wordpress.org/Customizing_the_Login_Form
+*/
+
+/* Above the form */
+body.login div#login div#login_error{
+    color:red;
+}
+
+
+/* Login form style */
+body.login div#login form#loginform {
+    border-radius:5%;
+    color:#28374E;
+}
+body.login div#login form#loginform label {
+    font-size:1.25em;
+    font-weight:700;
+}
+body.login div#login form#loginform input#user_login, body.login div#login form#loginform input#user_pass{
+    color:#BD9A77;
+}
+body.login div#login form#loginform p.submit input#wp-submit {
+    color:#ffffff;
+    background-color:#28374E;
+    border:0px;
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover{
+    background-color:#BD9A77;
+}
+
+
+/* Below the form */
+body.login div#login p#nav, body.login div#login p#backtoblog {
+    display:none;
+}
+body.login div#login div.privacy-policy-page-link{
+    display:none;
+}
+body.login p#note_contact_us{
+    margin:2em 0;
+    padding-bottom:5em;
+}
