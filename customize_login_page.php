@@ -1,10 +1,11 @@
 <?php
 
 /*
-	Codes for creating a customize login page in WP
-	Put the functions in the function.php below the activted theme.
+	-Codes for creating a customize login page in WP
+	-Put the functions in the "function.php" which is below the activted theme.
 
-	https://codex.wordpress.org/Customizing_the_Login_Form
+	-https://codex.wordpress.org/Customizing_the_Login_Form
+	-Creating a folder named "login" and put the logo file in it
 
 	==========================================
 	 Step1 - Login's logo customize    
